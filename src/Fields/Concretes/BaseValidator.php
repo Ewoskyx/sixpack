@@ -13,6 +13,6 @@ abstract class BaseValidator implements IBaseValidator
     }
     
     public function basic_form_string_input():string{
-        return 'true';
+        return 'required|unique:museums|min:3|max:50';
     }
 }
