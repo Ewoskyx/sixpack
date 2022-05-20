@@ -7,18 +7,10 @@
             "Ewoskyx\\Sixpack\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Ewoskyx\\Sixpack\\Tests": "tests/"
-        }
-    },
     "authors": [
         {
             "name": "Evren Ersoy"
         }
     ],
-    "require-dev": {
-        "orchestra/testbench": "^7.5"
-    },
     "minimum-stability": "dev"
 }
