@@ -7,6 +7,11 @@
             "Ewoskyx\\Sixpack\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Ewoskyx\\Sixpack\\Tests": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Evren Ersoy"
