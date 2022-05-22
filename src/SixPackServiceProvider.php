@@ -1,6 +1,6 @@
 <?php
 
-namespace ewoskyx\sixpack;
+namespace Ewoskyx\Sixpack;
 
 use Illuminate\Support\ServiceProvider;
 

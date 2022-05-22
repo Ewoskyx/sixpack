@@ -1,6 +1,6 @@
 <?php 
 
-namespace ewoskyx\sixpack;
+namespace Ewoskyx\Sixpack;
 
 class GBValidator {
 

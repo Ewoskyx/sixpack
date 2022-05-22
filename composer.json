@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ewoskyx\\sixpack\\SixPackServiceProvider"
+                "Ewoskyx\\Sixpack\\SixPackServiceProvider"
             ],
             "aliases": {
                 "GBValidator": "Ewoskyx\\Sixpack\\Facades\\GBValidator"

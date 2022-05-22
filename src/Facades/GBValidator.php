@@ -1,6 +1,6 @@
 <?php 
 
-namespace ewoskyx\sixpack\Facades;
+namespace Ewoskyx\Sixpack\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
