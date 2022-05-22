@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ewoskyx\\Sixpack\\SixPackServiceProvider"
+                "Ewoskyx\\Sixpack\\src\\SixPackServiceProvider"
             ]
         }
     },
