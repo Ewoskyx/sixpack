@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ewoskyx\\Sixpack\\": "src/"
+            "Ewoskyx\\Sixpack\\": "src"
         }
     },
     "authors": [
@@ -15,9 +15,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ewoskyx\\Sixpack\\src\\SixPackServiceProvider"
+                "Ewoskyx\\Sixpack\\SixPackServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "7.0"
+    }
 }
