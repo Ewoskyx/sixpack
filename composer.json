@@ -16,7 +16,10 @@
         "laravel": {
             "providers": [
                 "Ewoskyx\\Sixpack\\SixPackServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "GBValidator": "Ewoskyx\\Sixpack\\Facades\\GBValidator"
+            }
         }
     },
     "minimum-stability": "dev",
