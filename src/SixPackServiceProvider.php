@@ -8,15 +8,14 @@ use Illuminate\Support\ServiceProvider;
 class SixPackServiceProvider extends ServiceProvider{
 
     public function boot(){
-        $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('GBValidator', "Ewoskyx\\SixPack\\Facades\\GBValidator");
+        $this->app->bind('GBValidator', function() {
+            return new \Ewoskyx\Sixpack\GBValidator;
+        });
     }
 
     public function register()
     {
-        $this->app->bind('GBValidator', function() {
-            return new \Ewoskyx\Sixpack\GBValidator;
-        });
+        
     }
 
 }
