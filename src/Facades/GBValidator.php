@@ -5,9 +5,9 @@ namespace ewoskyx\sixpack\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class GBValidator extends Facade {
-    
+
     protected static function getFacadeAccessor()
     {
-        return 'GBValidator';
+        return \Ewoskyx\Sixpack\GBValidator::class;
     }
 }

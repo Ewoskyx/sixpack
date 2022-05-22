@@ -2,8 +2,9 @@
 
 namespace ewoskyx\sixpack;
 
+use ewoskyx\sixpack\GBValidator;
 use Illuminate\Support\ServiceProvider;
-use ewoskyx\sixpack\Facades\GBValidator;
+
 
 class SixPackServiceProvider extends ServiceProvider{
 
