@@ -14,8 +14,8 @@ class SixPackServiceProvider extends ServiceProvider{
 
     public function register()
     {
-        $this->app->bind('GBValidator', function($app) {
-            return new GBValidator();
+        $this->app->bind('GBValidator', function() {
+            return new \Ewoskyx\Sixpack\GBValidator;
         });
     }
 
