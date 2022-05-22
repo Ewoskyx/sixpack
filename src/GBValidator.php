@@ -4,11 +4,11 @@ namespace Ewoskyx\Sixpack;
 
 class GBValidator {
 
-    private $control;
+   
 
     public function __construct()
     {
-        $this->control = '';
+        
     }
 
      /**
@@ -18,7 +18,6 @@ class GBValidator {
      */
     public function basicInputString()
     {
-        $this->control = 'required|min:2|max:50';
-        return $this;
+        return 'required|min:2|max:50';
     }
 }
