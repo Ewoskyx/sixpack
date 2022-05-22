@@ -1,8 +1,9 @@
 <?php
 
-namespace ewoskyx\sixpack\src;
+namespace ewoskyx\sixpack\src\SixPackServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
+use ewoskyx\sixpack\Facades\GBValidator;
 
 class SixPackServiceProvider extends ServiceProvider{
 
