@@ -12,5 +12,12 @@
             "name": "Evren Ersoy"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ewoskyx\\Sixpack\\SixPackServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
