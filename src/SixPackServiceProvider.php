@@ -1,6 +1,6 @@
 <?php
 
-namespace ewoskyx\sixpack\src\SixPackServiceProvider;
+namespace ewoskyx\sixpack;
 
 use Illuminate\Support\ServiceProvider;
 use ewoskyx\sixpack\Facades\GBValidator;
