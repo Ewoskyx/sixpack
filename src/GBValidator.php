@@ -11,6 +11,7 @@ class GBValidator
     /**
      * Ad,Soyad,Kullanıcı Adı, Ürün adı v.b alanlar
      * min:2 - max:50 karakter olabilir.
+     * varsayılan : Zorunlu
      * @return {string}
      */
     public function basicStringInput()
@@ -105,7 +106,7 @@ class GBValidator
     }
     
     /**
-     * Basit tarih alanı tipi, Date olmalıdır.
+     * Video alanı dosya tipleri avi, mpeg, quicktime.
      * @return {string}
      */
     public function videoInput()
@@ -125,7 +126,7 @@ class GBValidator
     }
   
     /**
-     * Büyük görsel video alanı.
+     * Büyük görsel alanı.
      * jpeg, jpg, bmp, png
      * Max 10MB
      * @return {string}
